@@ -1,0 +1,35 @@
+{
+  "version": "2.0.1",
+  "notes": "# Beta 1.0.1 · October 2026\n\n## New things you can do\n- Updates now come to you on their own. Settings, Updates shows when a new version is ready.\n- Settings opens with ⌘, (Command-comma).\n\n## Things that behave better\n- If Brevier can't reach the update site, it now says it couldn't check, instead of \"No updates yet.\"\n- Agent names show the way you wrote them.\n- Buttons show the pointing hand.\n- Brevier Server's window opens tall enough to show Updates.\n- The disk image window shows the whole picture.\n",
+  "pub_date": "2026-10-13T23:50:32Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.1/Brevier-Server_2.0.1_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqc3FXd0RrV1l2cm5PVHhKdVZVMi9kMXMyTVpMT0g0T0hCTFJONVdBZERMR1BYTUlOWWpOVnBkY0pwRG9KUm9kQVdWaFlCTVJQc2ZJUVhibVFtdmc1QWc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5MzU0MzIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMV9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6Cmc5WmZKSE1BUHV0MTFCcnB0QTBVSGlWbWJiQmFyNjVXR3RRSS9XSnlnanRVUEpRSlhjSDdxOFhZQkZyby9tQVhsbmVIcXZCK0FxS0N3QXNwWlR5RkJBPT0K",
+      "size": 52867912,
+      "sha256": "37955763882e2a6dfb0eabfc094a5c93bc81b9dce6d668dcb1bf3adbea28a3f9"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.1/Brevier-Server_2.0.1_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbTZDY1JiOGsvVnlSRVl3SVIvVE1iSHEvL2Q4VnlDQmtEZ3k3SkhYQjhpbDVCTDNRdmZOR3NDb2VWM3QrcU8yMnZsRHA0bDhCcm9kb3FyeS9jOEd5Z0k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5MzU0MzIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMV9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKU0hMTHJnTEdyblRlZ3h3V1lNVFdGWnZUSUo3WUc4TWhIVS9RRFpxNmxqUTVxRE1UOUZiR090bHhUTUg3Q3dYMWhpMmIrdDNzUTkzZGpKNUFtbExhQVE9PQo=",
+      "size": 54310305,
+      "sha256": "4b41a533019053e1d57b67a1beef5c4b7e10153bc6cae120a14f017421da01d8"
+    }
+  },
+  "brevier": {
+    "channel": "beta",
+    "component": "server",
+    "name": "Beta 1.0.1",
+    "sequence": 1,
+    "signed_at": "2026-10-14T01:00:29Z",
+    "expires_at": "2026-12-13T01:00:29Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "1.11.6"
+    },
+    "data_format": 8
+  }
+}
