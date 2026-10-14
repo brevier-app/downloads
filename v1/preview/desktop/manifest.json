@@ -1,22 +1,22 @@
 {
-  "version": "2.0.1",
-  "notes": "# Beta 1.0.1 · October 2026\n\n## New things you can do\n- Updates now come to you on their own. Settings, Updates shows when a new version is ready.\n- Settings opens with ⌘, (Command-comma).\n\n## Things that behave better\n- If Brevier can't reach the update site, it now says it couldn't check, instead of \"No updates yet.\"\n- Agent names show the way you wrote them.\n- Buttons show the pointing hand.\n- Brevier Server's window opens tall enough to show Updates.\n- The disk image window shows the whole picture.\n",
-  "pub_date": "2026-10-13T23:50:32Z",
+  "version": "2.0.2",
+  "notes": "# Beta 1.0.2 · October 2026\n\n## Things that behave better\n- Agents can use your Mac: Brevier Hands now installs itself, and macOS asks for the two permissions it needs.\n- Settings › Agents shows \"Use this Mac\" even before it's set up, and says where to set it up.\n- The server window's last screen links to Settings.\n",
+  "pub_date": "2026-10-14T06:24:40Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.1/Brevier_2.0.1_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqa0dOd1hPVTFDNUVVamYvY2JyQUpFWkI1ODFNMzZyYVFwclRHa0NWQ1dCS1VQN0lFemZKTk53QnVBSkpvblgzbzROYXNUaXFHOHBrR0JRMjI5ZXI4Zzg9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5MzU0MzIJZmlsZTpCcmV2aWVyXzIuMC4xX2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKSWJocFVpUkltSjk2cG05blpMLzg5Z01kTXMydjRlZjQyem5mbVpGRFU3RDRaQjhBZGRweGVRbHFnSitGSUNXQ3EySEpnOVgrTnROSDU2Y2ZiY2JDQXc9PQo=",
-      "size": 5266156,
-      "sha256": "bc2fcad9c35d49a93bd1880594275da00e620990617461a5eb8bd825207f854e"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier_2.0.2_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbFdjdi93ZnRETi9ISnhIVVRvT2ZOYWdRRXJuS2t0ZGxGaW5kNEF1UXplbkMwL1M4QVdORlNJNUtoTWErT2NSemVZcjFEVThBR3EzUUhyRlJEV1JZUXc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyXzIuMC4yX2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKbDZzaElxYjNiMmRQY0IwNUJ0TXR5RlA3M0lvWUpmZnc0dlViZ3lvZS9FeXlNVHV4NDhHaXYzSjEyNVBRcGZJV2o4ZFptV3I5UGFSYTlhclhWb1QrQkE9PQo=",
+      "size": 5265242,
+      "sha256": "74502a2c702b87717da82549a1003654d0c6507f7703b783c504066acf03ed7d"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "desktop",
-    "name": "Beta 1.0.1",
-    "sequence": 1,
-    "signed_at": "2026-10-13T23:50:32Z",
-    "expires_at": "2026-12-12T23:50:32Z",
+    "name": "Beta 1.0.2",
+    "sequence": 2,
+    "signed_at": "2026-10-14T06:24:40Z",
+    "expires_at": "2026-12-13T06:24:40Z",
     "update_from": {
       "kind": "any"
     },
