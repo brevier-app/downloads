@@ -1,0 +1,28 @@
+{
+  "version": "2.0.2",
+  "notes": "# Beta 1.0.2 · October 2026\n\n## Things that behave better\n- Agents can use your Mac: Brevier Hands now installs itself, and macOS asks for the two permissions it needs.\n- Settings › Agents shows \"Use this Mac\" even before it's set up, and says where to set it up.\n- The server window's last screen links to Settings.\n",
+  "pub_date": "2026-10-14T06:24:40Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier_2.0.2_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbFdjdi93ZnRETi9ISnhIVVRvT2ZOYWdRRXJuS2t0ZGxGaW5kNEF1UXplbkMwL1M4QVdORlNJNUtoTWErT2NSemVZcjFEVThBR3EzUUhyRlJEV1JZUXc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyXzIuMC4yX2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKbDZzaElxYjNiMmRQY0IwNUJ0TXR5RlA3M0lvWUpmZnc0dlViZ3lvZS9FeXlNVHV4NDhHaXYzSjEyNVBRcGZJV2o4ZFptV3I5UGFSYTlhclhWb1QrQkE9PQo=",
+      "size": 5265242,
+      "sha256": "74502a2c702b87717da82549a1003654d0c6507f7703b783c504066acf03ed7d"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.2",
+    "sequence": 2,
+    "signed_at": "2026-10-14T06:24:40Z",
+    "expires_at": "2026-12-13T06:24:40Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "1.11.6"
+    }
+  }
+}
