@@ -1,0 +1,35 @@
+{
+  "version": "2.0.2",
+  "notes": "# Beta 1.0.2 · October 2026\n\n## Things that behave better\n- Agents can use your Mac: Brevier Hands now installs itself, and macOS asks for the two permissions it needs.\n- Settings › Agents shows \"Use this Mac\" even before it's set up, and says where to set it up.\n- The server window's last screen links to Settings.\n",
+  "pub_date": "2026-10-14T06:24:40Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier-Server_2.0.2_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqb2pxeFRERzRLcUZSTGE1Sk9ud1JhR2tuYVByelJBNWlaaTJiTHJuVnpKUW8wbUhha3pkRithbnk2MllPWlcyRElyMkNJVk5BN1NSLzh6TUx6b3dLUVE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMl9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CkxVR2o5bEJ1TWVJMVV0czkwdnpQNTQwWnhxSEQzRDhFQVJsSVFPQlBkbThldHlyU3l6amVLaEJBTElPcTN5MGdMcFp0dmMxcVdoeDB2alpLTVRVckFnPT0K",
+      "size": 52891755,
+      "sha256": "4c63c4590802afb65f0bb36a5a77064e02b23ac5a7caac0abd8191dc4991b04c"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier-Server_2.0.2_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcy9WNVZxdHYyYUh0MVEvVU4zUHVHMTI3Mmk3QXhzeERoaEkzZm9uVmM5MmJjSnNOcXZPem03RUdkM2lXc1Z5bC92T1ZONmRrNm45VXpuSkxzQm16d3M9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMl9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKYmhvaytjYUVzVGdPdnRMd0JGc1d1WDNtREd4MC9xdUtRNG1sZC9PbWpoWHgzeDV4UkxpOTlZblpPaUIwbGcySitTdEZDQmRabFUwWk5vaU9ZMFBHRFE9PQo=",
+      "size": 54327669,
+      "sha256": "4273cf5db8f156cc6f655022ff8e91812cac2431ec326162def72070d15c301f"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "server",
+    "name": "Beta 1.0.2",
+    "sequence": 2,
+    "signed_at": "2026-10-14T06:24:40Z",
+    "expires_at": "2026-12-13T06:24:40Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "1.11.6"
+    },
+    "data_format": 8
+  }
+}
