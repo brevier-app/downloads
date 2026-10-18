@@ -1,0 +1,36 @@
+{
+  "version": "2.0.4",
+  "notes": "# Beta 1.0.4 · October 2026\n\n## Things that behave better\n- Computer use works again. In Beta 1.0.2 and 1.0.3 every computer-use task stopped before its first step.\n",
+  "pub_date": "2026-10-18T11:41:42Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.4/Brevier-Server_2.0.4_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcWlrenFGVUIwMVo1S05rdFpObUZvZkc5YU9oSUIya0RycndzUk1salFGRWd0RmE5VGc0bnJmYXlBczdGRjFnd0oyaUlocjNZcnJpYW11cmVlWHJ2UWM9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIzMjM3MDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6ClJkRDhMT1Q1dUdxUGhMVFVRZnE5TmgxdURCU0V5VjZrbHhxTzhVeTh5UlZQeHduL3pJdElONlBKQnEwQkJ1UnpVcW15T2xwNEgzeGpDaFhsVHNVckRRPT0K",
+      "size": 52903128,
+      "sha256": "a9e512caa0c693f20c65ca37e6d2d975e9b4e98ca045b571d2bc779c0fe841ee"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.4/Brevier-Server_2.0.4_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqZ3BxM3ZYVUh0QlhuSnpMQWxqa1VaUitHZTIzQmVxRjk4cWcrRVBOdUZzM1A3MS9RSDBTV1VVNXA5eUloTDQvQXQ5VGt3VEdBYWFCTlhLcnd0WkRGUW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIzMjM3MDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNF9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKNmdxNVBkWmppNGwwWHU3Q2Z0aUR1ZEZxREE0ZnZFc1FhNEdmUUQ3eXo4VHo1QURqZTZlRmNobFFva2ZVQXI1ZjVFQUlMOTIvbGFhZ05PZXVUQXErQXc9PQo=",
+      "size": 54347581,
+      "sha256": "4d8f01f0963735713ffb28a772496f1c34ab2bdd37e3e07b5a43c35a9bc591d6"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "server",
+    "name": "Beta 1.0.4",
+    "sequence": 4,
+    "signed_at": "2026-10-18T11:41:42Z",
+    "expires_at": "2026-12-17T11:41:42Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    },
+    "data_format": 8,
+    "min_macos": "13.0"
+  }
+}
