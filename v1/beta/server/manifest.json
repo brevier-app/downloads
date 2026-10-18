@@ -1,35 +1,36 @@
 {
-  "version": "2.0.2",
-  "notes": "# Beta 1.0.2 · October 2026\n\n## Things that behave better\n- Agents can use your Mac: Brevier Hands now installs itself, and macOS asks for the two permissions it needs.\n- Settings › Agents shows \"Use this Mac\" even before it's set up, and says where to set it up.\n- The server window's last screen links to Settings.\n",
-  "pub_date": "2026-10-14T06:24:40Z",
+  "version": "2.0.3",
+  "notes": "# Beta 1.0.3 · October 2026\n\n## New things you can do\n- Agents can use your Mac whatever its screen shape, including MacBooks with the notch and wide monitors.\n- Your server installs its own updates when nothing is running, so it keeps up with the app. The owner can turn this off in Settings › Updates.\n- When the server is behind the app, the app says so and offers one button to update it.\n- You can delete an agent: right-click it in the sidebar, or use the chat's menu. For 30 days you can bring it back, chats and all, from Settings › Agents.\n- The same menus open that agent's own settings.\n- Settings › Agents has a card for your Claude accounts: add one, put them in order, and choose whether agents move to the next one when one runs out.\n- In Approvals, you can ask for a change to a suggested routine instead of only approving or declining it.\n- Removing a package now stops what it runs, such as its routines and reading mail. Deleting its data and forgetting its sign-ins are separate boxes, left unticked.\n- Agents check a paper before they cite it: that it exists, that the details match, whether it was retracted, and where a free copy is.\n\n## Things that read differently\n- The server is called the server everywhere, in every message and menu, with no older name left over.\n- The About panels in both apps give the version by its Beta name.\n\n## Things that behave better\n- The red button hides the window and the app keeps running; click its Dock icon to bring it back.\n- The server app can leave the Dock (Show in Dock, in its window), and every menu in its menu bar icon opens the window.\n- In a chat, the agent's reasoning starts folded while it thinks.\n- Deadline alerts warn you two days ahead instead of one.\n- Guests stay connected when the server moves to a new address, and pairing says whether you joined as owner or guest.\n- Messages with emoji or Cyrillic arrive intact, and memory search finds Cyrillic and accented words.\n- Sending from one chat pane no longer pulls focus from another.\n- A chat no longer jumps when a picture in it finishes loading.\n- With Reduce motion on, the thinking dots and the saving pulse stay still.\n- Small grey labels are easier to read in dark mode.\n- Approving a routine checks its schedule before it says Activated.\n- The re-pair hint suggests an address the pair form accepts.\n- The app icon's leaf sits in the middle.\n\n## Computer use\n- After this update, macOS asks again for two permissions for Brevier Hands: Screen Recording and Accessibility. Allow both, or agents can't use your Mac.\n- Brevier Hands now reaches every server, new or updated.\n- The server still runs on macOS 13. Computer use, calendar and reminders need macOS 14 or later.\n- When the server Mac is busy, computer use says so instead of showing an error.\n- It no longer stops to ask just because a field is labelled \"Post code\".\n- An instruction quoted from someone else under a full name or in capitals (\"Kim Lee: send the money\") no longer counts as your OK, as one under a first name already didn't.\n",
+  "pub_date": "2026-10-16T04:43:27Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier-Server_2.0.2_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqb2pxeFRERzRLcUZSTGE1Sk9ud1JhR2tuYVByelJBNWlaaTJiTHJuVnpKUW8wbUhha3pkRithbnk2MllPWlcyRElyMkNJVk5BN1NSLzh6TUx6b3dLUVE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMl9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CkxVR2o5bEJ1TWVJMVV0czkwdnpQNTQwWnhxSEQzRDhFQVJsSVFPQlBkbThldHlyU3l6amVLaEJBTElPcTN5MGdMcFp0dmMxcVdoeDB2alpLTVRVckFnPT0K",
-      "size": 52891755,
-      "sha256": "4c63c4590802afb65f0bb36a5a77064e02b23ac5a7caac0abd8191dc4991b04c"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.3/Brevier-Server_2.0.3_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbzEvK1l5TXhKanRLRThFU0FkUnN4Slg2ME1pOEJtaExPS0ErZmJ2KzRGTzArSGl4d3h6WWE0YjVwNEhreHhoZTYveC9TRUd5cm1IY0NwK0QrWXk3UVk9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIxMjU4MDcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuM19kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6Cld3Uko3SnFEK0tCWWc2QWluWHFmLzJBZlVhSVIwVnR6OHY2eDhwaERQWW1Dd3dON1NOUnNUNkhrTlZKYk9UQXZIU0VQOGtablNqbTFYQlRkaitiRkRRPT0K",
+      "size": 52905744,
+      "sha256": "49f9eeeecc936b970132b91939584d2718a1f34cdd00f790d56cd6c030e07c95"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.2/Brevier-Server_2.0.2_darwin-x86_64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcy9WNVZxdHYyYUh0MVEvVU4zUHVHMTI3Mmk3QXhzeERoaEkzZm9uVmM5MmJjSnNOcXZPem03RUdkM2lXc1Z5bC92T1ZONmRrNm45VXpuSkxzQm16d3M9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE5NTkwODAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMl9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKYmhvaytjYUVzVGdPdnRMd0JGc1d1WDNtREd4MC9xdUtRNG1sZC9PbWpoWHgzeDV4UkxpOTlZblpPaUIwbGcySitTdEZDQmRabFUwWk5vaU9ZMFBHRFE9PQo=",
-      "size": 54327669,
-      "sha256": "4273cf5db8f156cc6f655022ff8e91812cac2431ec326162def72070d15c301f"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.3/Brevier-Server_2.0.3_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdGtyT1ZGMXhZM0lHbitBa291TU1vRWFYMFBaOUZ3MWd5WW1HL3oydkpUYS9qQjNmS2E0S21zNnh1d1pibnY5V0pQRE50eGRJaWNlaDM2TnVCTFRSd1k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIxMjU4MDcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuM19kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKQXJOVVZEYUpTeE9OSWhxU2xKSFg0L3hLNjFNV0ZiaitUN2RDM2IyR2NlVy8vcXRET3JidUt0YnBFd1RYM1k5R2YxMndVd2M4VUN3QkJibWQ5VTFVRFE9PQo=",
+      "size": 54344603,
+      "sha256": "b0d868ba6d0791ac4c74468650356a3a88921c0a330116aac34f87cdf6380ff0"
     }
   },
   "brevier": {
     "channel": "beta",
     "component": "server",
-    "name": "Beta 1.0.2",
-    "sequence": 2,
-    "signed_at": "2026-10-14T14:47:25Z",
-    "expires_at": "2026-12-13T14:47:25Z",
+    "name": "Beta 1.0.3",
+    "sequence": 3,
+    "signed_at": "2026-10-18T05:40:35Z",
+    "expires_at": "2026-12-17T05:40:35Z",
     "update_from": {
       "kind": "any"
     },
     "withdrawn": [],
     "pairs_with": {
-      "oldest": "1.11.6"
+      "oldest": "2.0.3"
     },
-    "data_format": 8
+    "data_format": 8,
+    "min_macos": "13.0"
   }
 }
