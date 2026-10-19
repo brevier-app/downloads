@@ -1,28 +1,28 @@
 {
-  "version": "2.0.4",
-  "notes": "# Beta 1.0.4 · October 2026\n\n## Things that behave better\n- Computer use works again. In Beta 1.0.2 and 1.0.3 every computer-use task stopped before its first step.\n",
-  "pub_date": "2026-10-18T11:41:42Z",
+  "version": "2.0.5",
+  "notes": "# Beta 1.0.5 · October 2026\n\n## New things you can do\n- When an agent starts using your Mac, a banner at the top of the screen says so and asks you to leave the mouse and keyboard alone. When it stops, another banner says how it went and that the Mac is yours again.\n- The app sends a desktop notification when something needs you: an alert, a routine waiting for your OK, or an agent's reply while you're in another app. Click it to go straight there.\n- Alerts no longer need Telegram. When a routine fails or your Claude accounts run out, the alert shows up in the app.\n- You can choose which agent's chat a routine's results go to: Posts to, when you edit the routine. Nowhere keeps them out of every chat.\n\n## Things that behave better\n- Agents find what's in long notes more reliably, not just what's near the start.\n\n## Computer use\n- Computer use starts faster: the agent sees your screen from its very first step.\n- After this update, macOS asks again for two permissions for Brevier Hands: Screen Recording and Accessibility. Allow both, or agents can't use your Mac.\n- It asks you first before it runs a command in a terminal app whose screen it can't read, such as Warp, kitty or Ghostty.\n",
+  "pub_date": "2026-10-19T20:32:20Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.4/Brevier-Server_2.0.4_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcWlrenFGVUIwMVo1S05rdFpObUZvZkc5YU9oSUIya0RycndzUk1salFGRWd0RmE5VGc0bnJmYXlBczdGRjFnd0oyaUlocjNZcnJpYW11cmVlWHJ2UWM9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIzMjM3MDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6ClJkRDhMT1Q1dUdxUGhMVFVRZnE5TmgxdURCU0V5VjZrbHhxTzhVeTh5UlZQeHduL3pJdElONlBKQnEwQkJ1UnpVcW15T2xwNEgzeGpDaFhsVHNVckRRPT0K",
-      "size": 52903128,
-      "sha256": "a9e512caa0c693f20c65ca37e6d2d975e9b4e98ca045b571d2bc779c0fe841ee"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.5/Brevier-Server_2.0.5_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdHl4VjUvTytLRkUzZ1Y2cGsyQWpXRHdIZ2g5Q2lNNzlXNnNiMVo2dmJQM1VyTHlTRnlGcmtXYVBTbHpZS2lXMXI4VUJySi9VZ3NyLzc3ZFBMSnd0d1E9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI0NDE5NDAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNV9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6Ck9zVEhhTFNnSy9MdmVJRDhISEpPd2VGU0lTU2lRSjE1ZktmNkU3dWpLY1Fma2NENzhoM3Q3ayt3b2kwVE5DQkY1RXYxMy9rb3Y0R2x5WHY0SlVYWkFRPT0K",
+      "size": 52929556,
+      "sha256": "81ea61c54d8b5cc76ecfd75a24b78f69b3eb4b005eb9352aec71b1c1def03ac0"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.4/Brevier-Server_2.0.4_darwin-x86_64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqZ3BxM3ZYVUh0QlhuSnpMQWxqa1VaUitHZTIzQmVxRjk4cWcrRVBOdUZzM1A3MS9RSDBTV1VVNXA5eUloTDQvQXQ5VGt3VEdBYWFCTlhLcnd0WkRGUW89CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIzMjM3MDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNF9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKNmdxNVBkWmppNGwwWHU3Q2Z0aUR1ZEZxREE0ZnZFc1FhNEdmUUQ3eXo4VHo1QURqZTZlRmNobFFva2ZVQXI1ZjVFQUlMOTIvbGFhZ05PZXVUQXErQXc9PQo=",
-      "size": 54347581,
-      "sha256": "4d8f01f0963735713ffb28a772496f1c34ab2bdd37e3e07b5a43c35a9bc591d6"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.5/Brevier-Server_2.0.5_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqc0x0eG01WHRhYjlNamQvZzRCaFcyRDRUMTQrajlHdzJmMFF3amhvWjJOVU1TNlNQVDk0L0s1WGtrbzhNcTZJT1dsLzd6L1B1UWg2VEhvcVhFOFh3QU09CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI0NDE5NDAJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuNV9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKemVaNklHYzhYcVJFVjV4ZGF5NW81OVc2Ym5MQ3VQM3MyQ21laENzOU9YeGkrMlcvdlRXTlpKcmFFTEpBdS9NRzYxanR3SFZ0VXJpVCtWaFpBZUhaQWc9PQo=",
+      "size": 54350109,
+      "sha256": "08e83e367fe867dea621c21704deb7b75878c60d19d7e374028f17721b6eaef7"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "server",
-    "name": "Beta 1.0.4",
-    "sequence": 4,
-    "signed_at": "2026-10-18T11:41:42Z",
-    "expires_at": "2026-12-17T11:41:42Z",
+    "name": "Beta 1.0.5",
+    "sequence": 5,
+    "signed_at": "2026-10-19T20:32:20Z",
+    "expires_at": "2026-12-18T20:32:20Z",
     "update_from": {
       "kind": "any"
     },
