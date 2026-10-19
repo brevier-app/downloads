@@ -1,0 +1,28 @@
+{
+  "version": "2.0.5",
+  "notes": "# Beta 1.0.5 · October 2026\n\n## New things you can do\n- When an agent starts using your Mac, a banner at the top of the screen says so and asks you to leave the mouse and keyboard alone. When it stops, another banner says how it went and that the Mac is yours again.\n- The app sends a desktop notification when something needs you: an alert, a routine waiting for your OK, or an agent's reply while you're in another app. Click it to go straight there.\n- Alerts no longer need Telegram. When a routine fails or your Claude accounts run out, the alert shows up in the app.\n- You can choose which agent's chat a routine's results go to: Posts to, when you edit the routine. Nowhere keeps them out of every chat.\n\n## Things that behave better\n- Agents find what's in long notes more reliably, not just what's near the start.\n\n## Computer use\n- Computer use starts faster: the agent sees your screen from its very first step.\n- After this update, macOS asks again for two permissions for Brevier Hands: Screen Recording and Accessibility. Allow both, or agents can't use your Mac.\n- It asks you first before it runs a command in a terminal app whose screen it can't read, such as Warp, kitty or Ghostty.\n",
+  "pub_date": "2026-10-19T20:32:20Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.5/Brevier_2.0.5_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqb2N6OGZ5aEpVWHNoU0Uyd3BhRy9kZGRya2FXKy9IU0p2N3NVc0VPd2ZCaXFpQnJ4aStZbHhHcW1hZ2FvSVRhWVNlZnA3UUR2K2UvQ1ZoaWgrcHpoUUk9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI0NDE5NDAJZmlsZTpCcmV2aWVyXzIuMC41X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKTisydURmMU9sNk1Qek1YWG03RHMyYnVSUWk2T0ZaMjhGQmpobGl0NCtwcFhob05zWGVrODRuMlJ5Mm9tMHVPdVozOGN2ZjBWYXhmY1VWeTBlZlRkQWc9PQo=",
+      "size": 5277966,
+      "sha256": "e1f5e8adacdc9991a95ee9b836fee444dd14616c2871926b741f4efbcdffbe54"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.5",
+    "sequence": 5,
+    "signed_at": "2026-10-19T20:32:20Z",
+    "expires_at": "2026-12-18T20:32:20Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
