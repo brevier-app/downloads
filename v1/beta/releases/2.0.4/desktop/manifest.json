@@ -1,0 +1,28 @@
+{
+  "version": "2.0.4",
+  "notes": "# Beta 1.0.4 · October 2026\n\n## Things that behave better\n- Computer use works again. In Beta 1.0.2 and 1.0.3 every computer-use task stopped before its first step.\n",
+  "pub_date": "2026-10-18T11:41:42Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.4/Brevier_2.0.4_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdUVUQTJOc1RUaWxSMjQ2UjNFc3RpTC9PZ2J0Q0FrbEhyd1ViQTE2djFZS29jbU1pK3c0dVA1WHpaRXdFVVRFdW5VenA1UEQwbGF0bllXODEyb3FOUU09CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTIzMjM3MDIJZmlsZTpCcmV2aWVyXzIuMC40X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKbUI5ZnRUbmVRQTRUeUlvQ3p1MkwvRFk2NHQvRnhhaWtRUjlJdjd0clV6a0xsMXR2d2VDVVhtUnBVamdSYmdMeFRTakl0THI4OE9QSnU4ZHRrMUxNQkE9PQo=",
+      "size": 5285626,
+      "sha256": "0657838879664a3857901e2e408474bbb09913eafe4ec10852c36395da50ab8f"
+    }
+  },
+  "brevier": {
+    "channel": "beta",
+    "component": "desktop",
+    "name": "Beta 1.0.4",
+    "sequence": 4,
+    "signed_at": "2026-10-19T02:08:38Z",
+    "expires_at": "2026-12-18T02:08:38Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
