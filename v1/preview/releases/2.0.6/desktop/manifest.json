@@ -1,0 +1,28 @@
+{
+  "version": "2.0.6",
+  "notes": "# Beta 1.0.6 · October 2026\n\n## New things you can do\n- This update includes everything from Beta 1.0.5, which went straight on to this one. Its changes are listed here too.\n- When an agent starts using your Mac, a banner at the top of the screen says so and asks you to leave the mouse and keyboard alone. When it stops, another banner says how it went and that the Mac is yours again.\n- The app sends a desktop notification when something needs you: an alert, a routine waiting for your OK, or an agent's reply while you're in another app. Click it to go straight there.\n- Alerts no longer need Telegram. When a routine fails or Claude reaches its usage limit, the alert shows up in the app.\n- You can choose which agent's chat a routine's results go to: Posts to, when you edit the routine. Nowhere keeps them out of every chat.\n- If you have more than one Claude account, you pick the one agents use: Use next to it in Settings, under Agents.\n\n## Things that behave better\n- Brevier no longer moves to another Claude account by itself. If an account runs out, it pauses and you choose whether to switch.\n- Deleting an agent from the sidebar works again. In Beta 1.0.3 and 1.0.4 it said it couldn't delete the agent.\n- Agents find what's in long notes more reliably, not just what's near the start.\n\n## Computer use\n- Computer use starts faster: the agent sees your screen from its very first step.\n- After this update, macOS asks again for two permissions for Brevier Hands: Screen Recording and Accessibility. Allow both, or agents can't use your Mac.\n- When an update changes Brevier Hands, its old permission is now cleared by itself, so macOS asks again instead of leaving a switch that looks on but doesn't work.\n- If computer use still won't start even though Brevier Hands looks switched on in System Settings, you can fix it without Terminal: open Brevier Server from the menu bar, choose Fix computer use…, click Ask again, and allow Brevier Hands when macOS asks.\n- It asks you first before it runs a command in a terminal app whose screen it can't read, such as Warp, kitty or Ghostty.\n",
+  "pub_date": "2026-10-22T02:34:20Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.6/Brevier_2.0.6_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqckc4eDNsYVVTdUUrM1UwbmN0U0VrdzFuOGlmZWFIZEo0OWNXelNvRk5CZDNIU3pCUzFIWXpxZ0l0VmVIaHNlQnRRUGVSSEVuRFZBWS9wb2gwem82d1k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI2MzY0NjAJZmlsZTpCcmV2aWVyXzIuMC42X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKcmpVa3FEa09sV0RCK0I2RjlJZjcxWHRpQnlMZm9sQkVpbUc4RU5Hd3JkbWdDdlBuS1BiL0tQTmo0RWE1aFV0dWVSQS9IZTlwUzBJb0RKcWQ2WjZtQkE9PQo=",
+      "size": 5279595,
+      "sha256": "dfe52c863b12811073c7da9f772812e91f0067944284b6f851c5ec0ff21bf13b"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.6",
+    "sequence": 6,
+    "signed_at": "2026-10-22T02:34:20Z",
+    "expires_at": "2026-12-21T02:34:20Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
