@@ -1,0 +1,36 @@
+{
+  "version": "2.0.7",
+  "notes": "# Beta 1.0.7 · October 2026\n\n## New things you can do\n- Mail sets itself up from Packages: it downloads the mail program, takes your Google sign-in file, signs you in to Google, then asks when you want your mail digest and how it should read (Brief, Summary or Overview). Your digest arrives at those times.\n- You can uninstall Brevier Server from its menu bar menu: Uninstall… stops everything and removes its background jobs, its code and the computer-use helper from your Mac. Your data stays, and it tells you how to remove that too.\n- New in Settings › Agents, off by default: \"Separate web search agent\". Turn it on and your agents stop searching the web themselves; they ask a separate agent that can't see your notes, mail or chats. Scheduled tasks and computer use still use the web directly for now.\n\n## Things that read differently\n- A calmer, plainer look across the app: one reading width in chat, plain words and sentence case, Activity grouped by day, Plan and routine details as tidy tables, error notices that stay until you dismiss them, dialogs that open on Cancel, and phone layouts that fit.\n\n## Things that behave better\n- Quitting Brevier Server now keeps it stopped, even after you restart your Mac, until you open it again. Automatic updates wait while it's quit.\n- Agents now carry out what you ask instead of debating it. When something's unclear they take the sensible reading and say what they assumed; if a request looks like a mistake, they ask \"Are you sure?\" first.\n- Settings › Agents › Claude accounts: Use is now a proper button, each account can be removed (it asks first; the one in use can't be), and Add account opens Claude's sign-in in one click, then shows the new account by itself.\n- Agents can now use the Mac's screen, share files and talk to each other on every install, not only on the Mac Brevier is built on.\n- When Claude refuses your account, the notice now says what really happened (your organization turned off Claude Code for subscription sign-ins, or Anthropic disabled the account) and that Brevier checks again every half hour, and a second notice tells you when Claude accepts it again.\n- Agents now treat email, web pages, search results, files and forwarded messages as information, never as instructions.\n- Before an agent searches the web or opens a page, a quick check looks at exactly what it is sending. Anything that carries your private details, or looks driven by a page or email rather than by you, waits for your yes in Approvals. Secrets, and text hiding characters you can't see, are never sent. If the check can't run, nothing is sent and the agent tells you.\n- Web searches and page opens may take a few seconds longer.\n\n## Computer use\n- If Brevier is the app in front when you ask for something in another app (\"open Claude and…\", \"in Calculator, work out…\"), the agent now brings that app forward by itself and carries on. You no longer have to click the app and say \"go\". It still never clicks or types in Brevier.\n- Approving a step in Brevier on the same Mac no longer fails with \"the screen changed\": right after you approve, the agent brings the app you approved it for back to the front and does the step there, so wait for it before typing again. If you click into another app (Brevier too) before the step goes out, nothing is typed or clicked there; the agent looks again instead. If something really did change while you were deciding, it now says what.\n- When your own message says to run commands in Terminal (\"run npm test in Terminal\", \"execute Claude's commands in Terminal\"), the agent runs them without asking you first. It never types a password: when a command stops to ask for one, or for a login, the agent stops and tells you, so you can answer it in Terminal yourself. It still asks before a command it types that runs as administrator (sudo) or logs in somewhere, fetches from the internet or reaches another computer (curl, ssh, npx), publishes, stops apps, moves or changes a whole folder like Documents, or deletes files your request didn't mention (moving them to the Trash counts). It can't see inside the scripts those commands run, so only tell it to run commands you trust.\n",
+  "pub_date": "2026-10-23T22:22:47Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.7/Brevier-Server_2.0.7_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqamloMW1PN2JyYU5HZnFpUEsyRG9GYk9meXZ3K0tzVnh6K3JSQ2pWUGFsanF4T3hVYlBsV3dQMEV2cGUzK0RrakNoclREREtYZ0xTV2FyMlFPanUzQXc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI3OTQxNjcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuN19kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CkU0aFRvSmlaT0ZMc2h1T2h5Q29YL1FCa25qMzVZbDgzdUwzWGhvdm9lL1hQYXE4UExTdXhwYi9iVEQvMWo2bGdwSjA1T0ZYVTlsMFFRZnBSdDFWb0RBPT0K",
+      "size": 53042231,
+      "sha256": "fa4d42d623b5c19498bbf5e7cb08be3b6f0946cf669829c4ce2657349fddd1c3"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.7/Brevier-Server_2.0.7_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcE16d2hyWEtZWmpNcllaY0xtTHd3WlBDQWxMZGVoK1FlVUliZDhZWFRSOGtMZ3Y4UlhML0psRm9kei9NNisveklyUTNOeDJGMndYS0lYQWluTFlIQWs9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI3OTQxNjcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuN19kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKRTZld2ZPVGh6VU0vNWFzQTJBVmpYNWxlejVCTnQyd3dBdys4SFZadkpKY2xKeGVNVFdSTzJzYnNTZFcybXBEak5wdzJjUUFFZ2pLZEU4ekxZQzBzQ3c9PQo=",
+      "size": 54466118,
+      "sha256": "0217499ba22934a72911fcf6ab9b1a40dad7920671aa46b6f6f81b1a45106099"
+    }
+  },
+  "brevier": {
+    "channel": "beta",
+    "component": "server",
+    "name": "Beta 1.0.7",
+    "sequence": 6,
+    "signed_at": "2026-10-28T18:24:52Z",
+    "expires_at": "2026-12-27T18:24:52Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    },
+    "data_format": 9,
+    "min_macos": "13.0"
+  }
+}
