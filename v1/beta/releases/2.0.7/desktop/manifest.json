@@ -1,0 +1,28 @@
+{
+  "version": "2.0.7",
+  "notes": "# Beta 1.0.7 · October 2026\n\n## New things you can do\n- Mail sets itself up from Packages: it downloads the mail program, takes your Google sign-in file, signs you in to Google, then asks when you want your mail digest and how it should read (Brief, Summary or Overview). Your digest arrives at those times.\n- You can uninstall Brevier Server from its menu bar menu: Uninstall… stops everything and removes its background jobs, its code and the computer-use helper from your Mac. Your data stays, and it tells you how to remove that too.\n- New in Settings › Agents, off by default: \"Separate web search agent\". Turn it on and your agents stop searching the web themselves; they ask a separate agent that can't see your notes, mail or chats. Scheduled tasks and computer use still use the web directly for now.\n\n## Things that read differently\n- A calmer, plainer look across the app: one reading width in chat, plain words and sentence case, Activity grouped by day, Plan and routine details as tidy tables, error notices that stay until you dismiss them, dialogs that open on Cancel, and phone layouts that fit.\n\n## Things that behave better\n- Quitting Brevier Server now keeps it stopped, even after you restart your Mac, until you open it again. Automatic updates wait while it's quit.\n- Agents now carry out what you ask instead of debating it. When something's unclear they take the sensible reading and say what they assumed; if a request looks like a mistake, they ask \"Are you sure?\" first.\n- Settings › Agents › Claude accounts: Use is now a proper button, each account can be removed (it asks first; the one in use can't be), and Add account opens Claude's sign-in in one click, then shows the new account by itself.\n- Agents can now use the Mac's screen, share files and talk to each other on every install, not only on the Mac Brevier is built on.\n- When Claude refuses your account, the notice now says what really happened (your organization turned off Claude Code for subscription sign-ins, or Anthropic disabled the account) and that Brevier checks again every half hour, and a second notice tells you when Claude accepts it again.\n- Agents now treat email, web pages, search results, files and forwarded messages as information, never as instructions.\n- Before an agent searches the web or opens a page, a quick check looks at exactly what it is sending. Anything that carries your private details, or looks driven by a page or email rather than by you, waits for your yes in Approvals. Secrets, and text hiding characters you can't see, are never sent. If the check can't run, nothing is sent and the agent tells you.\n- Web searches and page opens may take a few seconds longer.\n\n## Computer use\n- If Brevier is the app in front when you ask for something in another app (\"open Claude and…\", \"in Calculator, work out…\"), the agent now brings that app forward by itself and carries on. You no longer have to click the app and say \"go\". It still never clicks or types in Brevier.\n- Approving a step in Brevier on the same Mac no longer fails with \"the screen changed\": right after you approve, the agent brings the app you approved it for back to the front and does the step there, so wait for it before typing again. If you click into another app (Brevier too) before the step goes out, nothing is typed or clicked there; the agent looks again instead. If something really did change while you were deciding, it now says what.\n- When your own message says to run commands in Terminal (\"run npm test in Terminal\", \"execute Claude's commands in Terminal\"), the agent runs them without asking you first. It never types a password: when a command stops to ask for one, or for a login, the agent stops and tells you, so you can answer it in Terminal yourself. It still asks before a command it types that runs as administrator (sudo) or logs in somewhere, fetches from the internet or reaches another computer (curl, ssh, npx), publishes, stops apps, moves or changes a whole folder like Documents, or deletes files your request didn't mention (moving them to the Trash counts). It can't see inside the scripts those commands run, so only tell it to run commands you trust.\n",
+  "pub_date": "2026-10-23T22:22:47Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.7/Brevier_2.0.7_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqalZyOGpudFMwUzlhUG5RU2FHOGc1SWloeWdVeWVSZ0ZyZWRTcmZmL25QS1dqWlNzUkt2OVhWR09ONWFWYkFsdXR1SGJkcXJ2S3NiSVZ4RFVjMDAyUVE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTI3OTQxNjcJZmlsZTpCcmV2aWVyXzIuMC43X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKcXNkd0RSbTJHbDBhL1RVVzl4eWw2UG93dVJodGI0K2RuOWQyMmxNeWM2SGhzLzNLSkkwV0JIQlhUajcvZVRWTFhKeHlsclNNKzVKTlFqd3hBaGRoQ0E9PQo=",
+      "size": 5286268,
+      "sha256": "068f799484b5cd6db28fc92ca9be6e06f4117ea89ce714ed6742351e48ecca55"
+    }
+  },
+  "brevier": {
+    "channel": "beta",
+    "component": "desktop",
+    "name": "Beta 1.0.7",
+    "sequence": 6,
+    "signed_at": "2026-10-28T18:24:52Z",
+    "expires_at": "2026-12-27T18:24:52Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
