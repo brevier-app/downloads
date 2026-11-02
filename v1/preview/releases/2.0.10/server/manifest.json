@@ -1,0 +1,36 @@
+{
+  "version": "2.0.10",
+  "notes": "# Beta 1.0.10 · November 2026\n\n## Things that behave better\n- Lecture recordings that only partly reach this Mac from iCloud are no longer filed as fragments and forgotten. Brevier waits until the whole recording is here, never files one while you're still recording, and tells you the same day if one only half-arrived, naming the class, the date and the title on your phone, so you can share it from your phone instead.\n- A recording you share into Downloads from your phone is filed under the class and date it was recorded, not the day it arrived.\n- When the whole copy of a recording arrives after a partial one was filed, it replaces the partial instead of being filed a second time.\n- Replies no longer run sentences together while an agent is working. A short status line and the text after it are now separate paragraphs.\n",
+  "pub_date": "2026-11-02T23:53:57Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier-Server_2.0.10_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcmZOWGRESHRMOVZFQzkvVThiN2ZaczFIQzExT1ltaElwUjB4eWE0dHhCUjRHdkxlOUFYVWVDNHV3ZGFFUVpVZVZrYTkrbmlpNGJrU1U3ZHNQcE1lZ0k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTBfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpnck03dHlxVHZwZ05RNVpwbDF0bkprSTFxREhNQzJsUnB1Y0dGOURTQmprRVhLQjBJRkZWbmJ4ZUZqTVcvVktVQzV3RUM2Z1ZJTTZHSWkxR3ZmTm9CUT09Cg==",
+      "size": 53047317,
+      "sha256": "52637c9abda7c6a7d039a67d06c66d1b5cb650f68bbfb05c80bc2a7cfa92a8f7"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier-Server_2.0.10_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbDBnRjNKdkFrZWFnbkp0bHc4Z2JpY0ZSWUU1ZlV4NVRNTWYvSzhWT1dBZUxJTDdwczJjSlI5bnVZaml5Ri94RS9YNDJKVCtWc3VpQUVYOUJjUWxwQTQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTBfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6Ck1VSEMrS3pJTzltMC90L0RLc1NpOVVseDI1TUFRYUU3RjhZZUF2MzI3QVN2L3pRWk80MUNjSnBwalpodnVGQ016bTBZR3ZHcVBPSkZsSXZCTGJGakR3PT0K",
+      "size": 54479245,
+      "sha256": "aac1c732706921f4cbded168508e9acb680b6e8037db34a1a1d9a8fa26f9ac2d"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "server",
+    "name": "Beta 1.0.10",
+    "sequence": 10,
+    "signed_at": "2026-11-02T23:53:57Z",
+    "expires_at": "2027-01-01T23:53:57Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    },
+    "data_format": 9,
+    "min_macos": "13.0"
+  }
+}
