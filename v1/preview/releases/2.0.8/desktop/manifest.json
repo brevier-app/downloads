@@ -1,0 +1,28 @@
+{
+  "version": "2.0.8",
+  "notes": "# Beta 1.0.8 · October 2026\n\n## Things that behave better\n- Web searches and page opens work again when your secrets folder holds a large file, such as a saved sign-in. The check that runs before each one couldn't handle a file that big, so it blocked every search.\n- When that check can't run, its notice in the chat no longer shows anything from your secrets folder. Before, the error it showed could include saved sign-in details.\n- Routines that broke in Beta 1.0.7 work again: the nightly notes cleanup, and the weekend routines that suggest new routines.\n- Canvas sync no longer gives up when a course's assignment list arrives cut short; it asks again.\n",
+  "pub_date": "2026-11-02T07:22:22Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.8/Brevier_2.0.8_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaHI3ZlVFZ2VDTkhNa2xJZGpCUmNBOFcwL3psaVQxTlZ3T2Zpak1yeUl0dHlLOGQ0U3pRdi9YS2pqWFdtcEtEbWwyUUdvc3UwN2hNUjhOS0o2cVZLUWc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MDQxNDIJZmlsZTpCcmV2aWVyXzIuMC44X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKYmllNDJJdTlCejRJaEFEck1wVG1PRUNyMGltdU0zc3ROQTJhN1cyRkpXREg4NVhmNHZJL0huVlF3WmRPNkE0d3VnUHZNT1FKOEZaTFlSZ3E2Rk5OQVE9PQo=",
+      "size": 5286212,
+      "sha256": "ffb95b96e268fddf97b9e5e99db42945cd104efee9a2efa0de849cab697aaf05"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.8",
+    "sequence": 8,
+    "signed_at": "2026-11-02T07:22:22Z",
+    "expires_at": "2027-01-01T07:22:22Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
