@@ -1,0 +1,36 @@
+{
+  "version": "2.0.8",
+  "notes": "# Beta 1.0.8 · October 2026\n\n## Things that behave better\n- Web searches and page opens work again when your secrets folder holds a large file, such as a saved sign-in. The check that runs before each one couldn't handle a file that big, so it blocked every search.\n- When that check can't run, its notice in the chat no longer shows anything from your secrets folder. Before, the error it showed could include saved sign-in details.\n- Routines that broke in Beta 1.0.7 work again: the nightly notes cleanup, and the weekend routines that suggest new routines.\n- Canvas sync no longer gives up when a course's assignment list arrives cut short; it asks again.\n",
+  "pub_date": "2026-11-02T07:22:22Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.8/Brevier-Server_2.0.8_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaWV6cnBCMCthQ3NMMjQzWCtwbEN6cHRQbVRlR3QvY0ZLRkhjNXdpZithUWlYcEV3cnl0TWZRQ0ZGeEJORWFIUkJkMmZPVjBEaTk2Q1kySTJ6cFNaQTQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MDQxNDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuOF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmQzWHJGYjZRNGJwRThkTm13TUFNK0hUbVpPeVdOQXdSOGQ1RTNJcWdoYmhWOFVOc0dEWkk3SXZXek8wdmdLTVVweEE1UW0wK0lZd1FmaEkvV3lid0RRPT0K",
+      "size": 53038334,
+      "sha256": "c02fda09846f1ea25beaa6dc77985de40f10d71a10df6862f3e29cb8b774de98"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.8/Brevier-Server_2.0.8_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcGd1b2tmYjFtb2xxN3FSRVU3RXc0cXp0Q1FZWFc3ODBZUS9WZUJ5eUJYSnAvK25YeFVxQjRURXVFa1FkQ21uak11Y1J6NVpqTE1xdmRlcHhvKzBkUWs9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MDQxNDIJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuOF9kYXJ3aW4teDg2XzY0LmFwcC50YXIuZ3oKclVUeDBrWko1bU90dldPOXo4S0VCbkc2clRsUlJTc3NnWVZXSnVRSWpYcVAzTE1lclp3WTVFQzF3UlNEdFlBL2RzL0czRE9YMVpuNEpaU0pHMHV0QWc9PQo=",
+      "size": 54463603,
+      "sha256": "61ce6f5d5cd34cbd13f01ed4101d9f8c298ace517a9e45e626e9d0d27131057c"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "server",
+    "name": "Beta 1.0.8",
+    "sequence": 8,
+    "signed_at": "2026-11-02T07:22:22Z",
+    "expires_at": "2027-01-01T07:22:22Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    },
+    "data_format": 9,
+    "min_macos": "13.0"
+  }
+}
