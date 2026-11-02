@@ -1,22 +1,22 @@
 {
-  "version": "2.0.8",
-  "notes": "# Beta 1.0.8 · October 2026\n\n## Things that behave better\n- Web searches and page opens work again when your secrets folder holds a large file, such as a saved sign-in. The check that runs before each one couldn't handle a file that big, so it blocked every search.\n- When that check can't run, its notice in the chat no longer shows anything from your secrets folder. Before, the error it showed could include saved sign-in details.\n- Routines that broke in Beta 1.0.7 work again: the nightly notes cleanup, and the weekend routines that suggest new routines.\n- Canvas sync no longer gives up when a course's assignment list arrives cut short; it asks again.\n",
-  "pub_date": "2026-11-02T07:22:22Z",
+  "version": "2.0.9",
+  "notes": "# Beta 1.0.9 · November 2026\n\n## Things that behave better\n- This update includes everything from Beta 1.0.8, which went straight on to this one. Its changes are listed here too.\n- Web searches and page opens work again when your secrets folder holds a large file, such as a saved sign-in. The check that runs before each one couldn't handle a file that big, so it blocked every search.\n- When that check can't run, its notice in the chat no longer shows anything from your secrets folder. Before, the error it showed could include saved sign-in details.\n- Routines that broke in Beta 1.0.7 work again: the nightly notes cleanup, and the weekend routines that suggest new routines.\n- Canvas sync no longer gives up when a course's assignment list arrives cut short; it asks again.\n- When an agent finishes work its helpers were doing in the background, that last reply now shows in your chat. Before, it was lost. Stop works on it too.\n- After you sign in to Claude again, Brevier notices as soon as an agent works, instead of still saying you're signed out and holding your routines.\n",
+  "pub_date": "2026-11-02T10:18:15Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.8/Brevier_2.0.8_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaHI3ZlVFZ2VDTkhNa2xJZGpCUmNBOFcwL3psaVQxTlZ3T2Zpak1yeUl0dHlLOGQ0U3pRdi9YS2pqWFdtcEtEbWwyUUdvc3UwN2hNUjhOS0o2cVZLUWc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MDQxNDIJZmlsZTpCcmV2aWVyXzIuMC44X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKYmllNDJJdTlCejRJaEFEck1wVG1PRUNyMGltdU0zc3ROQTJhN1cyRkpXREg4NVhmNHZJL0huVlF3WmRPNkE0d3VnUHZNT1FKOEZaTFlSZ3E2Rk5OQVE9PQo=",
-      "size": 5286212,
-      "sha256": "ffb95b96e268fddf97b9e5e99db42945cd104efee9a2efa0de849cab697aaf05"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.9/Brevier_2.0.9_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdUNPWEpQVzJQbTd3dWVIeVhuNkJDLzVpOTJMa2E3VklGTkRJcG1BTm5SUTlPOWtpYklNTlRPWkx1ZWFlYTVBODh6c3BzSHFuelc4TmhSYnpOU1hoQTA9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MTQ2OTUJZmlsZTpCcmV2aWVyXzIuMC45X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKVHo1bitoNzFHNGZIeXFDalB4RWlGVTNIRmE5dkJaRkRjbTFZSW02UzZuMW5qTnBsTWZhVS9JYStycnJURVRWRktCRldPWU9LZlZnS2VXSENmdXUxREE9PQo=",
+      "size": 5286982,
+      "sha256": "a1aa542073706e667a30d2ba34d5ad45a34937f28a7ace9ebe87343738a276ed"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "desktop",
-    "name": "Beta 1.0.8",
-    "sequence": 8,
-    "signed_at": "2026-11-02T07:22:22Z",
-    "expires_at": "2027-01-01T07:22:22Z",
+    "name": "Beta 1.0.9",
+    "sequence": 9,
+    "signed_at": "2026-11-02T10:18:15Z",
+    "expires_at": "2027-01-01T10:18:15Z",
     "update_from": {
       "kind": "any"
     },
