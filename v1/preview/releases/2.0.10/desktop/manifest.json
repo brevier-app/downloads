@@ -1,0 +1,28 @@
+{
+  "version": "2.0.10",
+  "notes": "# Beta 1.0.10 · November 2026\n\n## Things that behave better\n- Lecture recordings that only partly reach this Mac from iCloud are no longer filed as fragments and forgotten. Brevier waits until the whole recording is here, never files one while you're still recording, and tells you the same day if one only half-arrived, naming the class, the date and the title on your phone, so you can share it from your phone instead.\n- A recording you share into Downloads from your phone is filed under the class and date it was recorded, not the day it arrived.\n- When the whole copy of a recording arrives after a partial one was filed, it replaces the partial instead of being filed a second time.\n- Replies no longer run sentences together while an agent is working. A short status line and the text after it are now separate paragraphs.\n",
+  "pub_date": "2026-11-02T23:53:57Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier_2.0.10_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqanAveVpMRHFXVWo0bGpIU0U4YkVsZkpFM210VDR5MVhVMzR0UnQwM3Y4NHFjNmttVzh4ZDVuQ2hxWmpFb0d1NVVKTGRqMFpyclBTUWNZQkhSYks2dzQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyXzIuMC4xMF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmpEdFBKTlM5UEJGQzhyYlZsT3RlNFBobjhLVkxvQUpZQ2w3eVIycDJhcWhqMCtPM01ka3BZcHNLY2pTVGNMRmVXVUtQaTRSaVduYXBwSjU1WHJ6T0NnPT0K",
+      "size": 5286565,
+      "sha256": "b74d873608ad35151ee541236ef98e76b9473b5ba8fddb6244ea5cdd9e18f33f"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.10",
+    "sequence": 10,
+    "signed_at": "2026-11-02T23:53:57Z",
+    "expires_at": "2027-01-01T23:53:57Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
