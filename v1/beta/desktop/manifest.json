@@ -1,22 +1,22 @@
 {
-  "version": "2.0.9",
-  "notes": "# Beta 1.0.9 · November 2026\n\n## Things that behave better\n- This update includes everything from Beta 1.0.8, which went straight on to this one. Its changes are listed here too.\n- Web searches and page opens work again when your secrets folder holds a large file, such as a saved sign-in. The check that runs before each one couldn't handle a file that big, so it blocked every search.\n- When that check can't run, its notice in the chat no longer shows anything from your secrets folder. Before, the error it showed could include saved sign-in details.\n- Routines that broke in Beta 1.0.7 work again: the nightly notes cleanup, and the weekend routines that suggest new routines.\n- Canvas sync no longer gives up when a course's assignment list arrives cut short; it asks again.\n- When an agent finishes work its helpers were doing in the background, that last reply now shows in your chat. Before, it was lost. Stop works on it too.\n- After you sign in to Claude again, Brevier notices as soon as an agent works, instead of still saying you're signed out and holding your routines.\n",
-  "pub_date": "2026-11-02T10:18:15Z",
+  "version": "2.0.10",
+  "notes": "# Beta 1.0.10 · November 2026\n\n## Things that behave better\n- Lecture recordings that only partly reach this Mac from iCloud are no longer filed as fragments and forgotten. Brevier waits until the whole recording is here, never files one while you're still recording, and tells you the same day if one only half-arrived, naming the class, the date and the title on your phone, so you can share it from your phone instead.\n- A recording you share into Downloads from your phone is filed under the class and date it was recorded, not the day it arrived.\n- When the whole copy of a recording arrives after a partial one was filed, it replaces the partial instead of being filed a second time.\n- Replies no longer run sentences together while an agent is working. A short status line and the text after it are now separate paragraphs.\n",
+  "pub_date": "2026-11-02T23:53:57Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.9/Brevier_2.0.9_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdUNPWEpQVzJQbTd3dWVIeVhuNkJDLzVpOTJMa2E3VklGTkRJcG1BTm5SUTlPOWtpYklNTlRPWkx1ZWFlYTVBODh6c3BzSHFuelc4TmhSYnpOU1hoQTA9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2MTQ2OTUJZmlsZTpCcmV2aWVyXzIuMC45X2Rhcndpbi1hYXJjaDY0LmFwcC50YXIuZ3oKVHo1bitoNzFHNGZIeXFDalB4RWlGVTNIRmE5dkJaRkRjbTFZSW02UzZuMW5qTnBsTWZhVS9JYStycnJURVRWRktCRldPWU9LZlZnS2VXSENmdXUxREE9PQo=",
-      "size": 5286982,
-      "sha256": "a1aa542073706e667a30d2ba34d5ad45a34937f28a7ace9ebe87343738a276ed"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier_2.0.10_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqanAveVpMRHFXVWo0bGpIU0U4YkVsZkpFM210VDR5MVhVMzR0UnQwM3Y4NHFjNmttVzh4ZDVuQ2hxWmpFb0d1NVVKTGRqMFpyclBTUWNZQkhSYks2dzQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyXzIuMC4xMF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmpEdFBKTlM5UEJGQzhyYlZsT3RlNFBobjhLVkxvQUpZQ2w3eVIycDJhcWhqMCtPM01ka3BZcHNLY2pTVGNMRmVXVUtQaTRSaVduYXBwSjU1WHJ6T0NnPT0K",
+      "size": 5286565,
+      "sha256": "b74d873608ad35151ee541236ef98e76b9473b5ba8fddb6244ea5cdd9e18f33f"
     }
   },
   "brevier": {
     "channel": "beta",
     "component": "desktop",
-    "name": "Beta 1.0.9",
-    "sequence": 7,
-    "signed_at": "2026-11-02T20:14:02Z",
-    "expires_at": "2027-01-01T20:14:02Z",
+    "name": "Beta 1.0.10",
+    "sequence": 8,
+    "signed_at": "2026-11-05T19:37:17Z",
+    "expires_at": "2027-01-04T19:37:17Z",
     "update_from": {
       "kind": "any"
     },
