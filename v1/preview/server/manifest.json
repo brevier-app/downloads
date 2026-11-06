@@ -1,28 +1,28 @@
 {
-  "version": "2.0.10",
-  "notes": "# Beta 1.0.10 · November 2026\n\n## Things that behave better\n- Lecture recordings that only partly reach this Mac from iCloud are no longer filed as fragments and forgotten. Brevier waits until the whole recording is here, never files one while you're still recording, and tells you the same day if one only half-arrived, naming the class, the date and the title on your phone, so you can share it from your phone instead.\n- A recording you share into Downloads from your phone is filed under the class and date it was recorded, not the day it arrived.\n- When the whole copy of a recording arrives after a partial one was filed, it replaces the partial instead of being filed a second time.\n- Replies no longer run sentences together while an agent is working. A short status line and the text after it are now separate paragraphs.\n",
-  "pub_date": "2026-11-02T23:53:57Z",
+  "version": "2.0.11",
+  "notes": "# Beta 1.0.11 · November 2026\n\n## Things that behave better\n- The nightly memory tidy-up finishes again. Since late October its last step, copying your agents' notes into Claude Code's own memory folder, was blocked every night; it now runs after the tidy-up, outside the job's sandbox.\n- That copy never overwrites a note Claude Code changed on its side. When a note changed in both places, or two names differ only in capitals or accents, Brevier leaves that note alone on both sides and names it in the nightly report, so you choose which copy to keep. On a fresh install the first copy can hold a few such notes, MEMORY.md among them, until you choose.\n",
+  "pub_date": "2026-11-06T09:09:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier-Server_2.0.10_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqcmZOWGRESHRMOVZFQzkvVThiN2ZaczFIQzExT1ltaElwUjB4eWE0dHhCUjRHdkxlOUFYVWVDNHV3ZGFFUVpVZVZrYTkrbmlpNGJrU1U3ZHNQcE1lZ0k9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTBfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpnck03dHlxVHZwZ05RNVpwbDF0bkprSTFxREhNQzJsUnB1Y0dGOURTQmprRVhLQjBJRkZWbmJ4ZUZqTVcvVktVQzV3RUM2Z1ZJTTZHSWkxR3ZmTm9CUT09Cg==",
-      "size": 53047317,
-      "sha256": "52637c9abda7c6a7d039a67d06c66d1b5cb650f68bbfb05c80bc2a7cfa92a8f7"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaDhkaWJTalZXU0tXNGkweVFtNkdGSDV3dVFrL0hyZUREYjJBdlFEZFcvSThlZ2NkSmhaNS8yUDZxbVo1RnduWGZwL3Z0MnQ4Vi91a1VKbVlabldMZ2s9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpUczFjeFZTbEh6cDdKRG04WDFxQklVaVFBcXBsY2VudFgzUUVHYUwyNDdJRzB4WTZIMlF3N0RUdFBsSzBnUWYxSWUxYlVvK2hBb0N3NFgvMVlKbkRBdz09Cg==",
+      "size": 53055859,
+      "sha256": "6b56192ce9c7ffdd64b2c245b7f4d4cd7181b9b2da84126713e858a30969c6ef"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier-Server_2.0.10_darwin-x86_64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqbDBnRjNKdkFrZWFnbkp0bHc4Z2JpY0ZSWUU1ZlV4NVRNTWYvSzhWT1dBZUxJTDdwczJjSlI5bnVZaml5Ri94RS9YNDJKVCtWc3VpQUVYOUJjUWxwQTQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTBfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6Ck1VSEMrS3pJTzltMC90L0RLc1NpOVVseDI1TUFRYUU3RjhZZUF2MzI3QVN2L3pRWk80MUNjSnBwalpodnVGQ016bTBZR3ZHcVBPSkZsSXZCTGJGakR3PT0K",
-      "size": 54479245,
-      "sha256": "aac1c732706921f4cbded168508e9acb680b6e8037db34a1a1d9a8fa26f9ac2d"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqckxXcnZQRmVSdzVWVTNWaXJMcTJ0UXV4TlpXSWMzdHN6N2VKaWM4MWFDOFVmS2dCTmVVWHNmWW5BK3Jub0U2eG4wMHdvdDZDTldsdnpKRTZIUHVnUWs9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6CjNSTnNUcTY4VVlCQlRBdlh6YXQ3T01sOVVhSjcweDd5cHg2VGRsdmVjVDJzMnhvd2h5d1d5U3dxODdUZjlKUTlsaERsYjQxZkc5OHROSUJsQk8vNEN3PT0K",
+      "size": 54484930,
+      "sha256": "54625fdca41acc757a0c4e4439c46f54275532a6d8949d59b49ce213c8e00876"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "server",
-    "name": "Beta 1.0.10",
-    "sequence": 10,
-    "signed_at": "2026-11-02T23:53:57Z",
-    "expires_at": "2027-01-01T23:53:57Z",
+    "name": "Beta 1.0.11",
+    "sequence": 11,
+    "signed_at": "2026-11-06T09:09:39Z",
+    "expires_at": "2027-01-05T09:09:39Z",
     "update_from": {
       "kind": "any"
     },

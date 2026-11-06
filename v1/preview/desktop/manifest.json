@@ -1,22 +1,22 @@
 {
-  "version": "2.0.10",
-  "notes": "# Beta 1.0.10 · November 2026\n\n## Things that behave better\n- Lecture recordings that only partly reach this Mac from iCloud are no longer filed as fragments and forgotten. Brevier waits until the whole recording is here, never files one while you're still recording, and tells you the same day if one only half-arrived, naming the class, the date and the title on your phone, so you can share it from your phone instead.\n- A recording you share into Downloads from your phone is filed under the class and date it was recorded, not the day it arrived.\n- When the whole copy of a recording arrives after a partial one was filed, it replaces the partial instead of being filed a second time.\n- Replies no longer run sentences together while an agent is working. A short status line and the text after it are now separate paragraphs.\n",
-  "pub_date": "2026-11-02T23:53:57Z",
+  "version": "2.0.11",
+  "notes": "# Beta 1.0.11 · November 2026\n\n## Things that behave better\n- The nightly memory tidy-up finishes again. Since late October its last step, copying your agents' notes into Claude Code's own memory folder, was blocked every night; it now runs after the tidy-up, outside the job's sandbox.\n- That copy never overwrites a note Claude Code changed on its side. When a note changed in both places, or two names differ only in capitals or accents, Brevier leaves that note alone on both sides and names it in the nightly report, so you choose which copy to keep. On a fresh install the first copy can hold a few such notes, MEMORY.md among them, until you choose.\n",
+  "pub_date": "2026-11-06T09:09:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.10/Brevier_2.0.10_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqanAveVpMRHFXVWo0bGpIU0U4YkVsZkpFM210VDR5MVhVMzR0UnQwM3Y4NHFjNmttVzh4ZDVuQ2hxWmpFb0d1NVVKTGRqMFpyclBTUWNZQkhSYks2dzQ9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM2NjM2MzcJZmlsZTpCcmV2aWVyXzIuMC4xMF9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmpEdFBKTlM5UEJGQzhyYlZsT3RlNFBobjhLVkxvQUpZQ2w3eVIycDJhcWhqMCtPM01ka3BZcHNLY2pTVGNMRmVXVUtQaTRSaVduYXBwSjU1WHJ6T0NnPT0K",
-      "size": 5286565,
-      "sha256": "b74d873608ad35151ee541236ef98e76b9473b5ba8fddb6244ea5cdd9e18f33f"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier_2.0.11_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdkhEWTIwdjh0a2lmY2x2UVQwODVBRWFrNGlGdTVQUytJWG9qcmZyVVFpUDNzb3l3dGFzWVE5a1ZwZWZKUTgwRWJObWFxYkRnNkZRZ2tab294RGUwQXM9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyXzIuMC4xMV9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmJKS0hxZGk5eDlJT1ZqajFnZjYzOEVhWTNZeHVIT1g0Y1FrZkNGK1J2ZXdWYndZTk0vWm1hZXZOQ0VpY2ljZkg5aHpQQWRTZkdWUU9pT3VMeE54ckF3PT0K",
+      "size": 5286425,
+      "sha256": "e9b6e8c0affaf598ea1dbfa95e3435ebd235bda46ee3822c31f7355327c97eb7"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "desktop",
-    "name": "Beta 1.0.10",
-    "sequence": 10,
-    "signed_at": "2026-11-02T23:53:57Z",
-    "expires_at": "2027-01-01T23:53:57Z",
+    "name": "Beta 1.0.11",
+    "sequence": 11,
+    "signed_at": "2026-11-06T09:09:39Z",
+    "expires_at": "2027-01-05T09:09:39Z",
     "update_from": {
       "kind": "any"
     },
