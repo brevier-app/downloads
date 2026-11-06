@@ -1,0 +1,36 @@
+{
+  "version": "2.0.11",
+  "notes": "# Beta 1.0.11 · November 2026\n\n## Things that behave better\n- The nightly memory tidy-up finishes again. Since late October its last step, copying your agents' notes into Claude Code's own memory folder, was blocked every night; it now runs after the tidy-up, outside the job's sandbox.\n- That copy never overwrites a note Claude Code changed on its side. When a note changed in both places, or two names differ only in capitals or accents, Brevier leaves that note alone on both sides and names it in the nightly report, so you choose which copy to keep. On a fresh install the first copy can hold a few such notes, MEMORY.md among them, until you choose.\n",
+  "pub_date": "2026-11-06T09:09:39Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaDhkaWJTalZXU0tXNGkweVFtNkdGSDV3dVFrL0hyZUREYjJBdlFEZFcvSThlZ2NkSmhaNS8yUDZxbVo1RnduWGZwL3Z0MnQ4Vi91a1VKbVlabldMZ2s9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpUczFjeFZTbEh6cDdKRG04WDFxQklVaVFBcXBsY2VudFgzUUVHYUwyNDdJRzB4WTZIMlF3N0RUdFBsSzBnUWYxSWUxYlVvK2hBb0N3NFgvMVlKbkRBdz09Cg==",
+      "size": 53055859,
+      "sha256": "6b56192ce9c7ffdd64b2c245b7f4d4cd7181b9b2da84126713e858a30969c6ef"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqckxXcnZQRmVSdzVWVTNWaXJMcTJ0UXV4TlpXSWMzdHN6N2VKaWM4MWFDOFVmS2dCTmVVWHNmWW5BK3Jub0U2eG4wMHdvdDZDTldsdnpKRTZIUHVnUWs9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6CjNSTnNUcTY4VVlCQlRBdlh6YXQ3T01sOVVhSjcweDd5cHg2VGRsdmVjVDJzMnhvd2h5d1d5U3dxODdUZjlKUTlsaERsYjQxZkc5OHROSUJsQk8vNEN3PT0K",
+      "size": 54484930,
+      "sha256": "54625fdca41acc757a0c4e4439c46f54275532a6d8949d59b49ce213c8e00876"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "server",
+    "name": "Beta 1.0.11",
+    "sequence": 11,
+    "signed_at": "2026-11-06T09:09:39Z",
+    "expires_at": "2027-01-05T09:09:39Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    },
+    "data_format": 9,
+    "min_macos": "13.0"
+  }
+}
