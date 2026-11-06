@@ -1,0 +1,28 @@
+{
+  "version": "2.0.11",
+  "notes": "# Beta 1.0.11 · November 2026\n\n## Things that behave better\n- The nightly memory tidy-up finishes again. Since late October its last step, copying your agents' notes into Claude Code's own memory folder, was blocked every night; it now runs after the tidy-up, outside the job's sandbox.\n- That copy never overwrites a note Claude Code changed on its side. When a note changed in both places, or two names differ only in capitals or accents, Brevier leaves that note alone on both sides and names it in the nightly report, so you choose which copy to keep. On a fresh install the first copy can hold a few such notes, MEMORY.md among them, until you choose.\n",
+  "pub_date": "2026-11-06T09:09:39Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier_2.0.11_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdkhEWTIwdjh0a2lmY2x2UVQwODVBRWFrNGlGdTVQUytJWG9qcmZyVVFpUDNzb3l3dGFzWVE5a1ZwZWZKUTgwRWJObWFxYkRnNkZRZ2tab294RGUwQXM9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyXzIuMC4xMV9kYXJ3aW4tYWFyY2g2NC5hcHAudGFyLmd6CmJKS0hxZGk5eDlJT1ZqajFnZjYzOEVhWTNZeHVIT1g0Y1FrZkNGK1J2ZXdWYndZTk0vWm1hZXZOQ0VpY2ljZkg5aHpQQWRTZkdWUU9pT3VMeE54ckF3PT0K",
+      "size": 5286425,
+      "sha256": "e9b6e8c0affaf598ea1dbfa95e3435ebd235bda46ee3822c31f7355327c97eb7"
+    }
+  },
+  "brevier": {
+    "channel": "preview",
+    "component": "desktop",
+    "name": "Beta 1.0.11",
+    "sequence": 11,
+    "signed_at": "2026-11-06T09:09:39Z",
+    "expires_at": "2027-01-05T09:09:39Z",
+    "update_from": {
+      "kind": "any"
+    },
+    "withdrawn": [],
+    "pairs_with": {
+      "oldest": "2.0.3"
+    }
+  }
+}
