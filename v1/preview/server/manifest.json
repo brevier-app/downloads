@@ -1,28 +1,28 @@
 {
-  "version": "2.0.11",
-  "notes": "# Beta 1.0.11 · November 2026\n\n## Things that behave better\n- The nightly memory tidy-up finishes again. Since late October its last step, copying your agents' notes into Claude Code's own memory folder, was blocked every night; it now runs after the tidy-up, outside the job's sandbox.\n- That copy never overwrites a note Claude Code changed on its side. When a note changed in both places, or two names differ only in capitals or accents, Brevier leaves that note alone on both sides and names it in the nightly report, so you choose which copy to keep. On a fresh install the first copy can hold a few such notes, MEMORY.md among them, until you choose.\n",
-  "pub_date": "2026-11-06T09:09:39Z",
+  "version": "2.0.12",
+  "notes": "# Beta 1.0.12 · November 2026\n\n## Things that read differently\n- Text now has three roles in both apps: the system font for the interface, a serif for titles and longer reading, and a monospace font for code only. Sizes come from one scale, and labels are no longer set in spaced capitals.\n- Lines are drawn one way everywhere: one pixel wide, with one named style for each job, whether the line divides a list, edges a card or a control, or marks a warning.\n- A pane scrolls only where it is meant to. The chat can no longer be dragged sideways, and no message shows above the date band at the top of a chat.\n\n## Things that behave better\n- Two security fixes, for every install: the nightly memory tidy-up, and text that reaches an agent from outside, can no longer get at files they have no business with. Update when this release is offered to you.\n- When an account reaches a usage limit you get one notice about it, not several, and picking an account by hand checks it first.\n- An agent's browser can print a local file to PDF from inside its sandbox.\n",
+  "pub_date": "2026-11-19T23:45:49Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqaDhkaWJTalZXU0tXNGkweVFtNkdGSDV3dVFrL0hyZUREYjJBdlFEZFcvSThlZ2NkSmhaNS8yUDZxbVo1RnduWGZwL3Z0MnQ4Vi91a1VKbVlabldMZ2s9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpUczFjeFZTbEh6cDdKRG04WDFxQklVaVFBcXBsY2VudFgzUUVHYUwyNDdJRzB4WTZIMlF3N0RUdFBsSzBnUWYxSWUxYlVvK2hBb0N3NFgvMVlKbkRBdz09Cg==",
-      "size": 53055859,
-      "sha256": "6b56192ce9c7ffdd64b2c245b7f4d4cd7181b9b2da84126713e858a30969c6ef"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.12/Brevier-Server_2.0.12_darwin-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqa0Z6MW5Cbi9CekZwd3c0cWhPWE9HU1NUWkNCeDhWak9VUE9XanBRUFV0RTlsRHEzV2xJVFI4ckVQY2NHdS9uNFBzcEhvV3BiVWRnR3dWTDJSSHR5UVE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTUxMzE5NDkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTJfZGFyd2luLWFhcmNoNjQuYXBwLnRhci5negpsaWMvYkVlSm9kWnNKN2lrNUJmV1pPeWcyM0NoaTZpWlBaQW5aL1MrTE9SYkNXSG5ueFRwRkl4cDc4ckRKRU1uaUEyT1FvMUhZeDI1b1hubzYvMkxEQT09Cg==",
+      "size": 53137201,
+      "sha256": "d64e0b9dc95fc41f2b5c929059de0d3ced65805aab2dae5441ba7b357a0e3058"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.11/Brevier-Server_2.0.11_darwin-x86_64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqckxXcnZQRmVSdzVWVTNWaXJMcTJ0UXV4TlpXSWMzdHN6N2VKaWM4MWFDOFVmS2dCTmVVWHNmWW5BK3Jub0U2eG4wMHdvdDZDTldsdnpKRTZIUHVnUWs9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTM5NTYxNzkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTFfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6CjNSTnNUcTY4VVlCQlRBdlh6YXQ3T01sOVVhSjcweDd5cHg2VGRsdmVjVDJzMnhvd2h5d1d5U3dxODdUZjlKUTlsaERsYjQxZkc5OHROSUJsQk8vNEN3PT0K",
-      "size": 54484930,
-      "sha256": "54625fdca41acc757a0c4e4439c46f54275532a6d8949d59b49ce213c8e00876"
+      "url": "https://github.com/brevier-app/downloads/releases/download/v2.0.12/Brevier-Server_2.0.12_darwin-x86_64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIGJyZXZpZXIgc2VjcmV0IGtleQpSVVJKMWRqSFNDTEFqdjFqbHFTYzVQVkF6SG1ZMVNIYjJPMUN5b1pORzViZ0Q4Z2FwUDBuQlBCZXF6QXRiVCtsVEdKU09ESGZicFA4cFFsQ0hpeGNNeDJyMytweWJmZWl2UVE9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTUxMzE5NDkJZmlsZTpCcmV2aWVyLVNlcnZlcl8yLjAuMTJfZGFyd2luLXg4Nl82NC5hcHAudGFyLmd6CnZMVVVyNWpEQUI5WnoxMlBpUFNieGNNZFNMclQzQmxFaWxFcEhyVDBJeVZ0QkYwekhDMnhuNFFCaVdiZFVEbndsOVp0am1YWW5KQWZ5bW9NR21mbENBPT0K",
+      "size": 54558970,
+      "sha256": "f651445a9cc95969f7d0f4e12e19be01b491d9417d884bb0bfb5421cf257e687"
     }
   },
   "brevier": {
     "channel": "preview",
     "component": "server",
-    "name": "Beta 1.0.11",
-    "sequence": 11,
-    "signed_at": "2026-11-06T09:09:39Z",
-    "expires_at": "2027-01-05T09:09:39Z",
+    "name": "Beta 1.0.12",
+    "sequence": 12,
+    "signed_at": "2026-11-19T23:45:49Z",
+    "expires_at": "2027-01-18T23:45:49Z",
     "update_from": {
       "kind": "any"
     },
